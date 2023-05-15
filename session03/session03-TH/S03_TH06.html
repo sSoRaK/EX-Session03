@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Thương Mại Điện Tử</title>
+    <style>
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        padding: 0 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Trang web thương mại điện tử</h1>
+      <a href="#">Trang chủ</a>
+      <a href="#">Sản phẩm</a>
+      <a href="#">Giỏ hàng</a>
+      <a href="#">Liên hệ</a>
+    </header>
+    <main>
+      <section>
+        <table border="1">
+          <thead>
+            <th>Ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Mô tả</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">
+                <img
+                  src="https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                  alt="pear"
+                />
+              </td>
+              <td><a href="#">Sản phẩm 1</a></td>
+              <td rowspan="3">100,000đ</td>
+              <td rowspan="3">Mô tả sản phẩm 1</td>
+            </tr>
+            <tr>
+              <td>Size: M</td>
+            </tr>
+            <tr>
+              <td>Color: N</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt="laptop"
+                />
+              </td>
+              <td><a href="#">Sản phẩm 2</a></td>
+              <td>200,000đ</td>
+              <td>Mô tả sản phẩm</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <img
+                  src="https://www.citypng.com/public/uploads/preview/iphone-14-pro-and-max-deep-purple-png-11662587434zacaxkb4sd.png"
+                  alt="iphone_14"
+                />
+              </td>
+              <td>Mô tả sản phẩm 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Liên hệ</h2>
+        <form action="#" method="post">
+          <label for="name"
+            >Họ và Tên:
+            <input type="text" name="name" id="name" />
+          </label>
+          <br />
+          <label for="email"
+            >Email:
+            <input type="email" name="email" id="email" />
+          </label>
+          <br />
+          <label for="message"
+            >Nội Dung:
+            <textarea name="message" id="message" cols="20" rows="3"></textarea>
+          </label>
+          <br />
+          <input type="submit" value="Gửi" />
+        </form>
+      </section>
+      <section>
+        <h2>Thanh toán</h2>
+        <form action="#" method="post">
+          <label for="name"
+            >Họ và Tên:
+            <input type="text" name="name" id="name" />
+          </label>
+          <br />
+          <label for="email"
+            >Email:
+            <input type="email" name="email" id="email" />
+          </label>
+          <br />
+          <label for="number"
+            >Số Thẻ:
+            <input type="number" name="number" id="number" />
+          </label>
+          <br />
+          <label for="expire-date"
+            >Ngày Hết Hạn:
+            <input type="date" name="expire-date" id="expire-date" />
+          </label>
+          <br />
+          <input type="submit" value="Thanh Toán" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Trang web thương mại điện tử</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music for Life</title>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>List Nhạc</legend>
+      <table border="1">
+        <tr>
+          <td>
+            <audio controls src="./music/Maroon 5 - Sugar.mp3"></audio> <br />
+            <div class="info_music">
+              <p>Bài Hát: Sugar</p>
+              <p>Nghệ Sĩ: Maroon 5</p>
+            </div>
+          </td>
+          <td>
+            <audio
+              controls
+              src="./music/Đen - Mang Tiền Về Cho Mẹ ft. Nguyên Thảo.mp3"
+            ></audio>
+            <br />
+            <div class="info_music">
+              <p>Bài Hát: Mang Tiền Về Cho Mẹ</p>
+              <p>Nghệ Sĩ: Nguyên Thảo.ft, Đen</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <audio
+              controls
+              src="./music/David Guetta, Martin Garrix & Brooks - Like I Do.mp3"
+            ></audio>
+            <br />
+            <div class="info_music">
+              <p>Bài Hát: Like I Do</p>
+              <p>Nghệ Sĩ: David Guetta, Martin Garrix & Brooks</p>
+            </div>
+          </td>
+          <td>
+            <audio controls src="./music/7 Years - Lukas Graham.mp3"></audio>
+            <br />
+            <div class="info_music">
+              <p>Bài Hát: 7 Years</p>
+              <p>Nghệ Sĩ: Lukas Graham</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <fieldset>
+        <legend>Hãy tìm tên bài hát ưa thích tại đây</legend>
+        <form method="get" action="https://www.google.com/search?">
+          <label for="searching-bar"
+            >Tìm kiếm:
+            <input type="text" id="searching-bar" name="q" />
+            <input type="submit" value="Tìm" />
+          </label>
+        </form>
+      </fieldset>
+    </fieldset>
+  </body>
+</html>
